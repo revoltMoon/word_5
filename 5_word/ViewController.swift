@@ -91,7 +91,7 @@ class ViewController: UITableViewController {
         present(ac, animated: true)
     }
     
-    
+    //new text
     
     func isPossible(word: String) -> Bool {
         var tempWord = title!.lowercased()
