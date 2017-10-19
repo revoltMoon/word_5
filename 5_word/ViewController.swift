@@ -110,7 +110,7 @@ class ViewController: UITableViewController {
     func isOriginal(word: String) -> Bool {
         return !usedWords.contains(word)
     }
-    
+    //work
     func isReal(word: String) -> Bool {
         let checker = UITextChecker()
         let range = NSMakeRange(0, word.utf16.count)
